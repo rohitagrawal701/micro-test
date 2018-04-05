@@ -17,6 +17,11 @@
 			<groupId>com.github.jsimone</groupId>
 			<artifactId>webapp-runner</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.sample</groupId>
+  			<artifactId>HibernateForiegnKey</artifactId>
+  			<version>1.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
