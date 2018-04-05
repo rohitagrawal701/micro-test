@@ -1,2 +1,2 @@
-web:    java $JAVA_OPTS --port $PORT framework-web/target/*.war
+web:    java $JAVA_OPTS -jar framework-web/target/framework-web-1.0/WEB-INF/lib/webapp-runner-8.5.29.0.jar --port $PORT framework-web/target/*.war
 
